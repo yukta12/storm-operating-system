@@ -1,5 +1,5 @@
 # Storm-Operating-System
-
+<hr>
 This application is a Java Project that is basically a entertainment hub.
 This application is basically the stripped down version of chrome-cast.Here the user just simply needs to conncect the laptop to the TV and the application would launch automatically.The user can control the application with the help of Hand Gestures or with the help of his/her voice.
 
