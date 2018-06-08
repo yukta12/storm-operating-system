@@ -1,0 +1,51 @@
+#dashBoard{
+    -fx-background-image: url(resources/images/background-gradient-blue-image.jpg);
+}
+
+.tab-pane .tab-header-area .tab-header-background{
+    -fx-opacity: 0;
+}
+
+.tab{
+	-fx-opacity: 0;
+}
+
+/*.tab-pane{
+    -fx-tab-min-width :195px;
+    -fx-tab-min-height: 95px;
+*/    /*-fx-tab-border-radius: 100px;*/
+/*}*/
+
+/*.tab{*/
+	/*-fx-padding : 10 10 10 10;
+	-fx-border-insets : 50px;*/
+	/*-fx-background-insets : 0 100 0 0 , 0 5 0 0 , 1 6 0 0;
+	-fx-padding: 10 10 10 10;
+	-fx-border-radius : 200px;
+}
+*/
+/*.tab-pane .tab{
+	-fx-background-repeat :no repeat;
+	-fx-background-image : url(resources/icons/movie.png);
+	-fx-background-color:#333;
+}*/
+
+/*#tab_1{
+	-fx-min-width:200px;
+	-fx-min-height:200px;
+	-fx-background-insets : 0 100 0 0 , 0 5 0 0 , 1 6 0 0;
+}*/
+
+#button_1 , #button_2 , #button_3 , #button_4{
+	-fx-background-radius : 50%;
+	-fx-background-insets:-1 , 0;
+	-fx-background-color:transperant;
+}
+
+#button_1: hover , #button_2: hover , #button_3: hover , #button_4: hover{
+	-fx-background-color:linear-gradient(to bottom right , #2443f4, #9f1fef);
+}
+
+#button_1: pressed , #button_2: pressed , #button_3: pressed , #button_4: pressed{
+	-fx-background-color:linear-gradient(to top left , #2443f4, #9f1fef);
+}
