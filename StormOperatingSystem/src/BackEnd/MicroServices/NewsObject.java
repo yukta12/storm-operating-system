@@ -1,7 +1,6 @@
 package BackEnd.MicroServices;
 /*
 ********************************************************************************************************
-*  @author-YUKTA
 * this class contains a public parameterized constructor and setters and getters for each string objects
 * ******************************************************************************************************
  */
