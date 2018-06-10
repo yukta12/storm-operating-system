@@ -7,6 +7,11 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author Pranay Patro
+ */
+
+
 public class SearchResults {
 
 
@@ -79,7 +84,7 @@ public class SearchResults {
 
 
     /**
-     * overridden this for my convinience please do not modify.
+     * overridden this for my convenience please do not modify.
      * @param inputStream
      * @return
      * @throws IOException

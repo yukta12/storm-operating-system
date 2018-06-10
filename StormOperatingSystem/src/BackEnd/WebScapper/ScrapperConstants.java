@@ -1,5 +1,10 @@
 package BackEnd.WebScapper;
 
+/**
+ * @author Pranay Patro
+ */
+
+
 public interface ScrapperConstants {
 
     String baseUrl = "https://indiaproxy.in";

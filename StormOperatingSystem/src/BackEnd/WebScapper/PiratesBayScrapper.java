@@ -2,6 +2,10 @@ package BackEnd.WebScapper;
 
 import java.util.ArrayList;
 
+/**
+ * @author Pranay Patro
+ */
+
 public class PiratesBayScrapper {
 
     public PiratesBayScrapper() {
@@ -18,7 +22,4 @@ public class PiratesBayScrapper {
         System.out.println("inside startScrapping");
         return new SearchResults().mainType(searchQuery);
     }
-
-
-
 }
