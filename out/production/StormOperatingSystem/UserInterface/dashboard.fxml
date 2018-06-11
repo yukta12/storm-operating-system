@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="dashBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.DashboardController">
+<AnchorPane fx:id="dashBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.DashboardController">
    <children>
-      <Label layoutX="14.0" layoutY="14.0" prefHeight="85.0" prefWidth="387.0" text="Application" textFill="WHITE">
+      <Label layoutX="79.0" layoutY="95.0" prefHeight="85.0" prefWidth="387.0" text="Application" textFill="WHITE">
          <font>
             <Font name="Ubuntu" size="57.0" />
          </font>

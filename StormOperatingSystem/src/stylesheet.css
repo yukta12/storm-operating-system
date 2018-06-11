@@ -1,13 +1,18 @@
 #dashBoard{
-    -fx-background-image: url(resources/images/background-gradient-blue-image.jpg);
+	-fx-background-image: url(resources/images/background-gradient-blue-image.jpg);
 }
 
 .tab-pane .tab-header-area .tab-header-background{
-    -fx-opacity: 0;
+	-fx-background-color:transperant;
 }
 
 .tab{
-	-fx-opacity: 0;
+	-fx-background-color:transperant;
+}
+
+#anchorPane1 , #anchorPane2 , #anchorPane3 , #anchorPane4{
+	-fx-background-color:transperant;
+
 }
 
 /*.tab-pane{
@@ -17,11 +22,11 @@
 /*}*/
 
 /*.tab{*/
-	/*-fx-padding : 10 10 10 10;
-	-fx-border-insets : 50px;*/
-	/*-fx-background-insets : 0 100 0 0 , 0 5 0 0 , 1 6 0 0;
-	-fx-padding: 10 10 10 10;
-	-fx-border-radius : 200px;
+/*-fx-padding : 10 10 10 10;
+-fx-border-insets : 50px;*/
+/*-fx-background-insets : 0 100 0 0 , 0 5 0 0 , 1 6 0 0;
+-fx-padding: 10 10 10 10;
+-fx-border-radius : 200px;
 }
 */
 /*.tab-pane .tab{
@@ -37,9 +42,9 @@
 }*/
 
 #button_1 , #button_2 , #button_3 , #button_4{
-	-fx-background-radius : 50%;
-	-fx-background-insets:-1 , 0;
-	-fx-background-color:transperant;
+	-fx-background-radius :35% , 35% , 35% , 35%;
+	-fx-padding:0 15 0 15;
+	-fx-background-color: transperant;
 }
 
 #button_1: hover , #button_2: hover , #button_3: hover , #button_4: hover{
@@ -48,4 +53,44 @@
 
 #button_1: pressed , #button_2: pressed , #button_3: pressed , #button_4: pressed{
 	-fx-background-color:linear-gradient(to top left , #2443f4, #9f1fef);
+}
+
+
+/********* CSS FOR MEDIA PLAYER**************/
+#moviePane{
+	-fx-background-color: black;
+}
+
+#movieControlsPane{
+	-fx-background-radius:7% , 7% , 7% , 7%;
+	-fx-background-color: #1c1c1c;
+}
+
+#btnPlay{
+	-fx-background-color:transperant;
+}
+
+#btnPause{
+	-fx-background-color:transperant;
+}
+
+/*******************************************/
+
+#buttonMovie{
+	-fx-padding: 20 60 20 60;
+	-fx-background-color: skyblue;
+	/*-fx-effect: dropshadow(gaussian , #ccc , 3 , 20 , 0px , 10px);*/
+}
+
+/*#070e96*/
+#buttonMovie: hover{
+	/*-fx-effect: dropshadow(gaussian , #ccc , 3 , 20 , 0px , 10px);*/
+	/*-fx-translate-y:-6px;
+	-fx-translate-x:-5px;*/
+}
+
+#buttonMovie: pressed{
+	-fx-effect: none;
+	-fx-translate-y:-10px;
+	-fx-translate-x:0px;
 }

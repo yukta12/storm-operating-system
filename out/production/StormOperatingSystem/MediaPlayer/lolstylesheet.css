@@ -1,0 +1,29 @@
+
+
+/********* CSS FOR MEDIA PLAYER**************/
+#moviePane{
+    -fx-background-color: black;
+}
+
+#movieControlsPane{
+    -fx-background-radius:7% , 7% , 7% , 7%;
+    -fx-background-color: #1c1c1c;
+}
+
+#btnPlay{
+    -fx-background-color:transperant;
+}
+
+#btnPause{
+    -fx-background-color:transperant;
+}
+
+#btnEnterFS{
+    -fx-background-color: transperant;
+}
+
+#btnExitFS{
+    -fx-background-color: transperant;
+}
+
+/*******************************************/
