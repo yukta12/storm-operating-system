@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A693A6782811FE33792FBCDF4DF9577"
+               BlueprintIdentifier = "6F78F816E8A941FD0CB9A889A43730D1"
                BuildableName = "Pods_StromControllerIOS.framework"
                BlueprintName = "Pods-StromControllerIOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A693A6782811FE33792FBCDF4DF9577"
+            BlueprintIdentifier = "6F78F816E8A941FD0CB9A889A43730D1"
             BuildableName = "Pods_StromControllerIOS.framework"
             BlueprintName = "Pods-StromControllerIOS"
             ReferencedContainer = "container:Pods.xcodeproj">

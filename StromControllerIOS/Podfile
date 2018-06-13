@@ -5,6 +5,7 @@ target 'StromControllerIOS' do
   use_frameworks!
 
   pod 'SwiftSocket'
+  pod 'FontAwesome.swift'
 
   target 'StromControllerIOSTests' do
     inherit! :search_paths

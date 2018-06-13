@@ -16,6 +16,7 @@
 		BB0ACC9D20CBB8BC00E1F5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0ACC9B20CBB8BC00E1F5F4 /* LaunchScreen.storyboard */; };
 		BB0ACCA820CBB8BC00E1F5F4 /* StromControllerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACCA720CBB8BC00E1F5F4 /* StromControllerIOSTests.swift */; };
 		BB0ACCB320CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACCB220CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift */; };
+		BB5AF95D20CFC00F006642FD /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AF95C20CFC00F006642FD /* constants.swift */; };
 		BB9628DA20CBB9DB00939B25 /* ClientSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9628D920CBB9DB00939B25 /* ClientSide.swift */; };
 		BE9302EAF955242FB4B7D009 /* Pods_StromControllerIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0E68EC06E099F1D6B2D80 /* Pods_StromControllerIOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		BB0ACCAE20CBB8BC00E1F5F4 /* StromControllerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StromControllerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0ACCB220CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StromControllerIOSUITests.swift; sourceTree = "<group>"; };
 		BB0ACCB420CBB8BC00E1F5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5AF95C20CFC00F006642FD /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		BB9628D920CBB9DB00939B25 /* ClientSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSide.swift; sourceTree = "<group>"; };
 		E5E0E68EC06E099F1D6B2D80 /* Pods_StromControllerIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StromControllerIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97F638F6C06997929A7D424 /* Pods-StromControllerIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				BB0ACC9920CBB8BC00E1F5F4 /* Assets.xcassets */,
 				BB0ACC9B20CBB8BC00E1F5F4 /* LaunchScreen.storyboard */,
 				BB0ACC9E20CBB8BC00E1F5F4 /* Info.plist */,
+				BB5AF95C20CFC00F006642FD /* constants.swift */,
 			);
 			path = StromControllerIOS;
 			sourceTree = "<group>";
@@ -368,10 +371,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +394,7 @@
 				BB0ACC9520CBB8BB00E1F5F4 /* ViewController.swift in Sources */,
 				BB0ACC9320CBB8BB00E1F5F4 /* AppDelegate.swift in Sources */,
 				BB9628DA20CBB9DB00939B25 /* ClientSide.swift in Sources */,
+				BB5AF95D20CFC00F006642FD /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

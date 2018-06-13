@@ -14,6 +14,7 @@ public class ClientSide {
     private var port: Int32
     private var address: String
     private var socket: TCPClient
+    private var isConnected: Bool
     
     init(address: String,
          port: Int32) {
@@ -25,17 +26,15 @@ public class ClientSide {
         
         switch status {
         case .success:
-            let byteArray = (Byte)[1, 2, 3 ,4 , 5,
-            var length = "\(byteArray.count)\n"
-            var result = socket.send(string: length)
-            switch result {
-                case .success :
-                    socket.send(data: byteArray)
-            case .failure(_):
-                    print("Did not send command")
-            }
-        case .failure(let error):
-            print(error)
+            isConnected = true
+        case .failure(_):
+            isConnected = false
+        }
+    }
+    
+    public func send(message: String) {
+        if(isConnected) {
+            socket.send(string: "command:\(message)\n")
         }
     }
 }
