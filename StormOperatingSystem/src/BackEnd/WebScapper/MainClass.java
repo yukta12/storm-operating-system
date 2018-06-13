@@ -1,5 +1,11 @@
 package BackEnd.WebScapper;
 
+
+/**
+ *
+ * @author Pranay Patro
+ */
+
 public class MainClass {
     public static void main(String[] args) throws Exception {
         PiratesBayScrapper piratesBayScrapper = new PiratesBayScrapper();
@@ -16,6 +22,5 @@ public class MainClass {
             System.out.println("inside For Loop");
             System.out.println("Name = " + torrentObject.getName() + "\n Magnet = " + torrentObject.getMagnetUrl());
         }
-
     }
 }
