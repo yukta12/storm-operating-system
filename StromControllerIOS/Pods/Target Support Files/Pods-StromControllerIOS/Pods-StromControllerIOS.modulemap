@@ -1,0 +1,6 @@
+framework module Pods_StromControllerIOS {
+  umbrella header "Pods-StromControllerIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

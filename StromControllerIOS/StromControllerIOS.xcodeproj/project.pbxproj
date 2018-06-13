@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8BA582AC4169AB2756E889 /* Pods_StromControllerIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C10D382CEBF14A22A9CDA4F /* Pods_StromControllerIOS.framework */; };
+		AF5B237B34F103DE67224B02 /* Pods_StromControllerIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA31E7BECE84030E0D69E13F /* Pods_StromControllerIOSTests.framework */; };
+		BB0ACC9320CBB8BB00E1F5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACC9220CBB8BB00E1F5F4 /* AppDelegate.swift */; };
+		BB0ACC9520CBB8BB00E1F5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACC9420CBB8BB00E1F5F4 /* ViewController.swift */; };
+		BB0ACC9820CBB8BB00E1F5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0ACC9620CBB8BB00E1F5F4 /* Main.storyboard */; };
+		BB0ACC9A20CBB8BC00E1F5F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0ACC9920CBB8BC00E1F5F4 /* Assets.xcassets */; };
+		BB0ACC9D20CBB8BC00E1F5F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0ACC9B20CBB8BC00E1F5F4 /* LaunchScreen.storyboard */; };
+		BB0ACCA820CBB8BC00E1F5F4 /* StromControllerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACCA720CBB8BC00E1F5F4 /* StromControllerIOSTests.swift */; };
+		BB0ACCB320CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0ACCB220CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift */; };
+		BB5AF95D20CFC00F006642FD /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5AF95C20CFC00F006642FD /* constants.swift */; };
+		BB9628DA20CBB9DB00939B25 /* ClientSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9628D920CBB9DB00939B25 /* ClientSide.swift */; };
+		BE9302EAF955242FB4B7D009 /* Pods_StromControllerIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0E68EC06E099F1D6B2D80 /* Pods_StromControllerIOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0ACCA420CBB8BC00E1F5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0ACC8720CBB8BB00E1F5F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0ACC8E20CBB8BB00E1F5F4;
+			remoteInfo = StromControllerIOS;
+		};
+		BB0ACCAF20CBB8BC00E1F5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0ACC8720CBB8BB00E1F5F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0ACC8E20CBB8BB00E1F5F4;
+			remoteInfo = StromControllerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024DA8A0849269CA41A1DE90 /* Pods-StromControllerIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOSUITests/Pods-StromControllerIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A3F424D2FB76143559D3FE5 /* Pods-StromControllerIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS.release.xcconfig"; sourceTree = "<group>"; };
+		2C10D382CEBF14A22A9CDA4F /* Pods_StromControllerIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StromControllerIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443FA658D3DACFA193440D36 /* Pods-StromControllerIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOSTests/Pods-StromControllerIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		67C8E08343BC9CFDE6C4131D /* Pods-StromControllerIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOSUITests/Pods-StromControllerIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68CA5DA95FB5D37D260C0BC4 /* Pods-StromControllerIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOSTests/Pods-StromControllerIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA31E7BECE84030E0D69E13F /* Pods_StromControllerIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StromControllerIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0ACC8F20CBB8BB00E1F5F4 /* StromControllerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StromControllerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0ACC9220CBB8BB00E1F5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB0ACC9420CBB8BB00E1F5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB0ACC9720CBB8BB00E1F5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0ACC9920CBB8BC00E1F5F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0ACC9C20CBB8BC00E1F5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB0ACC9E20CBB8BC00E1F5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0ACCA320CBB8BC00E1F5F4 /* StromControllerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StromControllerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0ACCA720CBB8BC00E1F5F4 /* StromControllerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StromControllerIOSTests.swift; sourceTree = "<group>"; };
+		BB0ACCA920CBB8BC00E1F5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0ACCAE20CBB8BC00E1F5F4 /* StromControllerIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StromControllerIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0ACCB220CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StromControllerIOSUITests.swift; sourceTree = "<group>"; };
+		BB0ACCB420CBB8BC00E1F5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5AF95C20CFC00F006642FD /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		BB9628D920CBB9DB00939B25 /* ClientSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSide.swift; sourceTree = "<group>"; };
+		E5E0E68EC06E099F1D6B2D80 /* Pods_StromControllerIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StromControllerIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97F638F6C06997929A7D424 /* Pods-StromControllerIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StromControllerIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0ACC8C20CBB8BB00E1F5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8BA582AC4169AB2756E889 /* Pods_StromControllerIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACCA020CBB8BC00E1F5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5B237B34F103DE67224B02 /* Pods_StromControllerIOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACCAB20CBB8BC00E1F5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9302EAF955242FB4B7D009 /* Pods_StromControllerIOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DF6EE6B6023A309BACC09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C10D382CEBF14A22A9CDA4F /* Pods_StromControllerIOS.framework */,
+				BA31E7BECE84030E0D69E13F /* Pods_StromControllerIOSTests.framework */,
+				E5E0E68EC06E099F1D6B2D80 /* Pods_StromControllerIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB0ACC8620CBB8BB00E1F5F4 = {
+			isa = PBXGroup;
+			children = (
+				BB0ACC9120CBB8BB00E1F5F4 /* StromControllerIOS */,
+				BB0ACCA620CBB8BC00E1F5F4 /* StromControllerIOSTests */,
+				BB0ACCB120CBB8BC00E1F5F4 /* StromControllerIOSUITests */,
+				BB0ACC9020CBB8BB00E1F5F4 /* Products */,
+				ECD389F1D600DA17B06AAD04 /* Pods */,
+				89DF6EE6B6023A309BACC09C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0ACC9020CBB8BB00E1F5F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0ACC8F20CBB8BB00E1F5F4 /* StromControllerIOS.app */,
+				BB0ACCA320CBB8BC00E1F5F4 /* StromControllerIOSTests.xctest */,
+				BB0ACCAE20CBB8BC00E1F5F4 /* StromControllerIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0ACC9120CBB8BB00E1F5F4 /* StromControllerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB9628D820CBB9C800939B25 /* ClientSide */,
+				BB0ACC9220CBB8BB00E1F5F4 /* AppDelegate.swift */,
+				BB0ACC9420CBB8BB00E1F5F4 /* ViewController.swift */,
+				BB0ACC9620CBB8BB00E1F5F4 /* Main.storyboard */,
+				BB0ACC9920CBB8BC00E1F5F4 /* Assets.xcassets */,
+				BB0ACC9B20CBB8BC00E1F5F4 /* LaunchScreen.storyboard */,
+				BB0ACC9E20CBB8BC00E1F5F4 /* Info.plist */,
+				BB5AF95C20CFC00F006642FD /* constants.swift */,
+			);
+			path = StromControllerIOS;
+			sourceTree = "<group>";
+		};
+		BB0ACCA620CBB8BC00E1F5F4 /* StromControllerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0ACCA720CBB8BC00E1F5F4 /* StromControllerIOSTests.swift */,
+				BB0ACCA920CBB8BC00E1F5F4 /* Info.plist */,
+			);
+			path = StromControllerIOSTests;
+			sourceTree = "<group>";
+		};
+		BB0ACCB120CBB8BC00E1F5F4 /* StromControllerIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0ACCB220CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift */,
+				BB0ACCB420CBB8BC00E1F5F4 /* Info.plist */,
+			);
+			path = StromControllerIOSUITests;
+			sourceTree = "<group>";
+		};
+		BB9628D820CBB9C800939B25 /* ClientSide */ = {
+			isa = PBXGroup;
+			children = (
+				BB9628D920CBB9DB00939B25 /* ClientSide.swift */,
+			);
+			path = ClientSide;
+			sourceTree = "<group>";
+		};
+		ECD389F1D600DA17B06AAD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F97F638F6C06997929A7D424 /* Pods-StromControllerIOS.debug.xcconfig */,
+				2A3F424D2FB76143559D3FE5 /* Pods-StromControllerIOS.release.xcconfig */,
+				68CA5DA95FB5D37D260C0BC4 /* Pods-StromControllerIOSTests.debug.xcconfig */,
+				443FA658D3DACFA193440D36 /* Pods-StromControllerIOSTests.release.xcconfig */,
+				024DA8A0849269CA41A1DE90 /* Pods-StromControllerIOSUITests.debug.xcconfig */,
+				67C8E08343BC9CFDE6C4131D /* Pods-StromControllerIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0ACC8E20CBB8BB00E1F5F4 /* StromControllerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0ACCB720CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOS" */;
+			buildPhases = (
+				5B080120B6A08E843EC9C0DE /* [CP] Check Pods Manifest.lock */,
+				BB0ACC8B20CBB8BB00E1F5F4 /* Sources */,
+				BB0ACC8C20CBB8BB00E1F5F4 /* Frameworks */,
+				BB0ACC8D20CBB8BB00E1F5F4 /* Resources */,
+				C64F5D943020368C0C2F6C5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StromControllerIOS;
+			productName = StromControllerIOS;
+			productReference = BB0ACC8F20CBB8BB00E1F5F4 /* StromControllerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0ACCA220CBB8BC00E1F5F4 /* StromControllerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0ACCBA20CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOSTests" */;
+			buildPhases = (
+				AF7A56AAA605F233EE1CDC7A /* [CP] Check Pods Manifest.lock */,
+				BB0ACC9F20CBB8BC00E1F5F4 /* Sources */,
+				BB0ACCA020CBB8BC00E1F5F4 /* Frameworks */,
+				BB0ACCA120CBB8BC00E1F5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0ACCA520CBB8BC00E1F5F4 /* PBXTargetDependency */,
+			);
+			name = StromControllerIOSTests;
+			productName = StromControllerIOSTests;
+			productReference = BB0ACCA320CBB8BC00E1F5F4 /* StromControllerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB0ACCAD20CBB8BC00E1F5F4 /* StromControllerIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0ACCBD20CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOSUITests" */;
+			buildPhases = (
+				4C211F21103C38586E7BCE9A /* [CP] Check Pods Manifest.lock */,
+				BB0ACCAA20CBB8BC00E1F5F4 /* Sources */,
+				BB0ACCAB20CBB8BC00E1F5F4 /* Frameworks */,
+				BB0ACCAC20CBB8BC00E1F5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0ACCB020CBB8BC00E1F5F4 /* PBXTargetDependency */,
+			);
+			name = StromControllerIOSUITests;
+			productName = StromControllerIOSUITests;
+			productReference = BB0ACCAE20CBB8BC00E1F5F4 /* StromControllerIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0ACC8720CBB8BB00E1F5F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gaurav Punjabi";
+				TargetAttributes = {
+					BB0ACC8E20CBB8BB00E1F5F4 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BB0ACCA220CBB8BC00E1F5F4 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BB0ACC8E20CBB8BB00E1F5F4;
+					};
+					BB0ACCAD20CBB8BC00E1F5F4 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BB0ACC8E20CBB8BB00E1F5F4;
+					};
+				};
+			};
+			buildConfigurationList = BB0ACC8A20CBB8BB00E1F5F4 /* Build configuration list for PBXProject "StromControllerIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0ACC8620CBB8BB00E1F5F4;
+			productRefGroup = BB0ACC9020CBB8BB00E1F5F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0ACC8E20CBB8BB00E1F5F4 /* StromControllerIOS */,
+				BB0ACCA220CBB8BC00E1F5F4 /* StromControllerIOSTests */,
+				BB0ACCAD20CBB8BC00E1F5F4 /* StromControllerIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0ACC8D20CBB8BB00E1F5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0ACC9D20CBB8BC00E1F5F4 /* LaunchScreen.storyboard in Resources */,
+				BB0ACC9A20CBB8BC00E1F5F4 /* Assets.xcassets in Resources */,
+				BB0ACC9820CBB8BB00E1F5F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACCA120CBB8BC00E1F5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACCAC20CBB8BC00E1F5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C211F21103C38586E7BCE9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StromControllerIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B080120B6A08E843EC9C0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StromControllerIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF7A56AAA605F233EE1CDC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StromControllerIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64F5D943020368C0C2F6C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StromControllerIOS/Pods-StromControllerIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0ACC8B20CBB8BB00E1F5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0ACC9520CBB8BB00E1F5F4 /* ViewController.swift in Sources */,
+				BB0ACC9320CBB8BB00E1F5F4 /* AppDelegate.swift in Sources */,
+				BB9628DA20CBB9DB00939B25 /* ClientSide.swift in Sources */,
+				BB5AF95D20CFC00F006642FD /* constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACC9F20CBB8BC00E1F5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0ACCA820CBB8BC00E1F5F4 /* StromControllerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0ACCAA20CBB8BC00E1F5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0ACCB320CBB8BC00E1F5F4 /* StromControllerIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0ACCA520CBB8BC00E1F5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0ACC8E20CBB8BB00E1F5F4 /* StromControllerIOS */;
+			targetProxy = BB0ACCA420CBB8BC00E1F5F4 /* PBXContainerItemProxy */;
+		};
+		BB0ACCB020CBB8BC00E1F5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0ACC8E20CBB8BB00E1F5F4 /* StromControllerIOS */;
+			targetProxy = BB0ACCAF20CBB8BC00E1F5F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0ACC9620CBB8BB00E1F5F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0ACC9720CBB8BB00E1F5F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB0ACC9B20CBB8BC00E1F5F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0ACC9C20CBB8BC00E1F5F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0ACCB520CBB8BC00E1F5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0ACCB620CBB8BC00E1F5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0ACCB820CBB8BC00E1F5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97F638F6C06997929A7D424 /* Pods-StromControllerIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0ACCB920CBB8BC00E1F5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3F424D2FB76143559D3FE5 /* Pods-StromControllerIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB0ACCBB20CBB8BC00E1F5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CA5DA95FB5D37D260C0BC4 /* Pods-StromControllerIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StromControllerIOS.app/StromControllerIOS";
+			};
+			name = Debug;
+		};
+		BB0ACCBC20CBB8BC00E1F5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443FA658D3DACFA193440D36 /* Pods-StromControllerIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StromControllerIOS.app/StromControllerIOS";
+			};
+			name = Release;
+		};
+		BB0ACCBE20CBB8BC00E1F5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024DA8A0849269CA41A1DE90 /* Pods-StromControllerIOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StromControllerIOS;
+			};
+			name = Debug;
+		};
+		BB0ACCBF20CBB8BC00E1F5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C8E08343BC9CFDE6C4131D /* Pods-StromControllerIOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7PLF6GM4A;
+				INFOPLIST_FILE = StromControllerIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP.StromControllerIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StromControllerIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0ACC8A20CBB8BB00E1F5F4 /* Build configuration list for PBXProject "StromControllerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0ACCB520CBB8BC00E1F5F4 /* Debug */,
+				BB0ACCB620CBB8BC00E1F5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0ACCB720CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0ACCB820CBB8BC00E1F5F4 /* Debug */,
+				BB0ACCB920CBB8BC00E1F5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0ACCBA20CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0ACCBB20CBB8BC00E1F5F4 /* Debug */,
+				BB0ACCBC20CBB8BC00E1F5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0ACCBD20CBB8BC00E1F5F4 /* Build configuration list for PBXNativeTarget "StromControllerIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0ACCBE20CBB8BC00E1F5F4 /* Debug */,
+				BB0ACCBF20CBB8BC00E1F5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0ACC8720CBB8BB00E1F5F4 /* Project object */;
+}
