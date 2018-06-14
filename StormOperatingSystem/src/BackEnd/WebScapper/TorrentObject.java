@@ -1,5 +1,9 @@
 package BackEnd.WebScapper;
 
+/**
+ * @author Pranay Patro
+ */
+
 public class TorrentObject {
 
     private String name="";
