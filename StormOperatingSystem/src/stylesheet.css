@@ -48,4 +48,5 @@
 
 #button_1: pressed , #button_2: pressed , #button_3: pressed , #button_4: pressed{
 	-fx-background-color:linear-gradient(to top left , #2443f4, #9f1fef);
+	-fx-im
 }
